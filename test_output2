@@ -1,0 +1,508 @@
+ppayal@asb9700u-c05:~$ cd sfuhome
+ppayal@asb9700u-c05:~/sfuhome$ cd as4
+ppayal@asb9700u-c05:~/sfuhome/as4$ make
+make: 'UnixLs' is up to date.
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -iRl
+6350780742610797501		 -rwxr-xr-x		   1    ppayal domain users   13416 Dec 08 11:07 UnixLs
+6350780545042301886		 -rwxr-xr-x		   1    ppayal domain users    7872 Dec 04 22:14 unix.o
+6350780798445372351		 -rwxr-xr-x		   1    ppayal domain users    9040 Dec 08 11:07 un.o
+6350780721135961024		 -rwxr-xr-x		   1    ppayal domain users    7667 Dec 08 11:06 un.c
+6350780566517138369		 -rwxr-xr-x		   1    ppayal domain users    8665 Dec 04 22:11 unix.c
+6350780575107072962		 -rwxr-xr-x		   1    ppayal domain users     215 Dec 06 02:44 makefile
+2964975714420736963		 -rwxr-xr-x		   1    ppayal domain users   11583 Dec 08 11:31 test_output1
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -iRl
+.:
+total 72
+6350780575107072962 -rwxr-xr-x 1 ppayal domain users   215 Dec  6 02:44 makefile
+2964975714420736963 -rwxr-xr-x 1 ppayal domain users 11583 Dec  8 11:31 test_output1
+6350780721135961024 -rwxr-xr-x 1 ppayal domain users  7667 Dec  8 11:06 un.c
+6350780566517138369 -rwxr-xr-x 1 ppayal domain users  8665 Dec  4 22:11 unix.c
+6350780742610797501 -rwxr-xr-x 1 ppayal domain users 13416 Dec  8 11:07 UnixLs
+6350780545042301886 -rwxr-xr-x 1 ppayal domain users  7872 Dec  4 22:14 unix.o
+6350780798445372351 -rwxr-xr-x 1 ppayal domain users  9040 Dec  8 11:07 un.o
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs liR
+liR:
+this directory does not exist
+: No such file or directory
+
+
+
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -liR
+6350780742610797501		 -rwxr-xr-x		   1    ppayal domain users   13416 Dec 08 11:07 UnixLs
+6350780545042301886		 -rwxr-xr-x		   1    ppayal domain users    7872 Dec 04 22:14 unix.o
+6350780798445372351		 -rwxr-xr-x		   1    ppayal domain users    9040 Dec 08 11:07 un.o
+6350780721135961024		 -rwxr-xr-x		   1    ppayal domain users    7667 Dec 08 11:06 un.c
+6350780566517138369		 -rwxr-xr-x		   1    ppayal domain users    8665 Dec 04 22:11 unix.c
+6350780575107072962		 -rwxr-xr-x		   1    ppayal domain users     215 Dec 06 02:44 makefile
+2964975714420736963		 -rwxr-xr-x		   1    ppayal domain users   11583 Dec 08 11:31 test_output1
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -liR
+.:
+total 72
+6350780575107072962 -rwxr-xr-x 1 ppayal domain users   215 Dec  6 02:44 makefile
+2964975714420736963 -rwxr-xr-x 1 ppayal domain users 11583 Dec  8 11:31 test_output1
+6350780721135961024 -rwxr-xr-x 1 ppayal domain users  7667 Dec  8 11:06 un.c
+6350780566517138369 -rwxr-xr-x 1 ppayal domain users  8665 Dec  4 22:11 unix.c
+6350780742610797501 -rwxr-xr-x 1 ppayal domain users 13416 Dec  8 11:07 UnixLs
+6350780545042301886 -rwxr-xr-x 1 ppayal domain users  7872 Dec  4 22:14 unix.o
+6350780798445372351 -rwxr-xr-x 1 ppayal domain users  9040 Dec  8 11:07 un.o
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -R ~/
+/home/ppayal/:
+sfuhome
+Android
+VirtualBox VMs
+Desktop
+Downloads
+Templates
+Public
+Documents
+Music
+Pictures
+Videos
+un.c
+noman
+56.txt
+assign2
+UnixLs.c
+UnixLs.o
+A2.zip
+simple_talk.c
+ass
+eni.c
+
+
+/home/ppayal//sfuhome:
+pub_html
+as4
+CMPT 130
+cmptpa
+code1.cpp
+code2.cpp
+TestCode.zip
+code.txt
+code1.cpp~
+single-file
+desktop.ini
+$RECYCLE.BIN
+testing_A2
+assign2
+ass3
+Untitled Document 1
+Assignment1
+a1.zip
+Co-op Work Permit Instructions JAN2020.pdf
+857026e3_830f_4c97_9fa7_bbe33abb0803.pdf
+Co-op Work Permit for International Students.pdf
+cmpt300
+Untitled Document 2
+ass
+Untitled 2
+ass.zip
+list(1)
+simple.c
+mainsem.c
+myass3
+list(1).zip
+asgn3
+makefile
+UnixLs.c
+payal 
+un.c
+
+
+/home/ppayal//sfuhome/pub_html:
+
+
+/home/ppayal//sfuhome/as4:
+UnixLs
+unix.o
+un.o
+un.c
+unix.c
+makefile
+test_output1
+
+
+/home/ppayal//sfuhome/CMPT 130:
+135
+
+
+/home/ppayal//sfuhome/CMPT 130/135:
+135
+135.sln
+135.suo
+
+
+/home/ppayal//sfuhome/CMPT 130/135/135:
+135.vcxproj
+135.cpp
+
+
+/home/ppayal//sfuhome/cmptpa:
+makefile
+BinarySearchTree2.h
+dsexceptions.h
+TestAvlTree.cpp
+TestBinarySearchTree1.cpp
+TestBinarySearchTree1.o
+BinarySearchTree1.h
+AvlTreeB.h
+TestBinarySearchTree2.cpp
+BinarySearchTree1.h.gch
+dsexceptions.h.gch
+Test_BST1
+TestBinarySearchTree2.o
+BinarySearchTree2.h.gch
+Test_BST2
+TestAVLTree.o
+AvlTreeB.h.gch
+Test_AVL
+A2.zip
+
+
+/home/ppayal//sfuhome/single-file:
+Makefile
+tutorial.cpp
+tutorial.o
+tutorial
+
+
+/home/ppayal//sfuhome/$RECYCLE.BIN:
+desktop.ini
+
+
+/home/ppayal//sfuhome/testing_A2:
+AvlTreeB.h
+BinarySearchTree1.h
+BinarySearchTree2.h
+dsexceptions.h
+makefile
+TestAvlTree.cpp
+TestBinarySearchTree1.cpp
+TestBinarySearchTree2.cpp
+TestBinarySearchTree1.o
+BinarySearchTree1.h.gch
+dsexceptions.h.gch
+Test_BST1
+TestBinarySearchTree2.o
+BinarySearchTree2.h.gch
+Test_BST2
+TestAVLTree.o
+AvlTreeB.h.gch
+Test_AVL
+
+
+/home/ppayal//sfuhome/assign2:
+README.pdf
+list.o
+list.h
+simp.c
+makefile
+
+
+/home/ppayal//sfuhome/ass3:
+list.h
+list.c
+mainsem.o
+list.o
+makefile
+simulation-app
+mainsem.c
+
+
+/home/ppayal//sfuhome/Assignment1:
+makefile
+Report.pdf
+dsexceptions.h
+List.h
+part1.cpp
+part2.cpp
+Vector.h
+Vector2.h
+
+
+/home/ppayal//sfuhome/cmpt300:
+ass
+
+
+/home/ppayal//sfuhome/cmpt300/ass:
+makefile
+helper_list1.c
+helper_list1.h
+helper_list1.o
+
+
+/home/ppayal//sfuhome/ass:
+makefile
+simp.c
+list.h
+list.o
+simple.o
+s-talk
+simp.o
+
+
+/home/ppayal//sfuhome/list(1):
+__MACOSX
+
+
+/home/ppayal//sfuhome/list(1)/__MACOSX:
+
+
+/home/ppayal//sfuhome/myass3:
+list.h
+list.o
+simulation.o
+simulation-app
+run
+
+
+/home/ppayal//sfuhome/asgn3:
+assignment_3.zip
+simulation.o
+Assignment_1
+run
+a.out
+executable
+assignment_3
+
+
+/home/ppayal//sfuhome/asgn3/Assignment_1:
+makefile
+list.c
+test.c
+list.h
+
+
+/home/ppayal//sfuhome/asgn3/assignment_3:
+list.h
+list.o
+makefile
+simulation.c
+
+
+/home/ppayal//sfuhome/payal :
+
+
+/home/ppayal//Desktop:
+
+
+/home/ppayal//Downloads:
+care-l2.zip
+care-a1.zip
+care-l3.zip
+care-l4.zip
+triangle.pdf
+care-l5.zip
+care-l6.zip
+care-a7.zip
+care-a8.zip
+care-a9.zip
+AvlTree.h
+BinarySearchTree.h
+dsexceptions.h
+TestBinarySearchTree.cpp
+TestAvlTree.cpp
+CMPT225.zip
+Report.pdf
+list.h.gch
+simple_talk.c
+simp.c
+pcbb.txt
+main.txt
+list.zip
+payal 
+list.h
+list.o
+simulation(1).c
+
+
+/home/ppayal//Downloads/payal :
+__MACOSX
+
+
+/home/ppayal//Downloads/payal /__MACOSX:
+
+
+/home/ppayal//Templates:
+
+
+/home/ppayal//Public:
+
+
+/home/ppayal//Documents:
+payal1.odt
+list(1).zip
+list.zip
+
+
+/home/ppayal//Music:
+Assignment2 (6)(1).zip
+
+
+/home/ppayal//Pictures:
+
+
+/home/ppayal//Videos:
+
+
+/home/ppayal//noman:
+this
+2.txt
+56.txt
+
+
+/home/ppayal//noman/this:
+1.txt
+2.txt
+
+
+/home/ppayal//assign2:
+makefile
+list.o
+list.h
+simp.c
+README.pdf
+
+
+/home/ppayal//ass:
+simp.o
+simple.o
+s-talk
+
+
+
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -R ~/
+/home/ppayal/:
+ 56.txt   Android   assign2   Documents   eni.c   noman      Public    simple_talk.c   un.c	  UnixLs.o  'VirtualBox VMs'
+ A2.zip   ass	    Desktop   Downloads   Music   Pictures   sfuhome   Templates       UnixLs.c   Videos
+
+/home/ppayal/ass:
+simple.o  simp.o  s-talk
+
+/home/ppayal/assign2:
+list.h	list.o	makefile  README.pdf  simp.c
+
+/home/ppayal/Desktop:
+
+/home/ppayal/Documents:
+'list(1).zip'   list.zip   payal1.odt
+
+/home/ppayal/Downloads:
+ AvlTree.h	      care-a7.zip   care-l2.zip   care-l5.zip   dsexceptions.h	 list.o    'payal '	 simp.c		    TestAvlTree.cpp
+ BinarySearchTree.h   care-a8.zip   care-l3.zip   care-l6.zip   list.h		 list.zip   pcbb.txt	 simple_talk.c	    TestBinarySearchTree.cpp
+ care-a1.zip	      care-a9.zip   care-l4.zip   CMPT225.zip   list.h.gch	 main.txt   Report.pdf	'simulation(1).c'   triangle.pdf
+
+'/home/ppayal/Downloads/payal ':
+__MACOSX
+
+'/home/ppayal/Downloads/payal /__MACOSX':
+
+/home/ppayal/Music:
+'Assignment2 (6)(1).zip'
+
+/home/ppayal/noman:
+2.txt  56.txt  this
+
+/home/ppayal/noman/this:
+1.txt  2.txt
+
+/home/ppayal/Pictures:
+
+/home/ppayal/Public:
+
+/home/ppayal/sfuhome:
+ 857026e3_830f_4c97_9fa7_bbe33abb0803.pdf   assign2	  code1.cpp					      desktop.ini   'payal '	     testing_A2
+ a1.zip					    Assignment1   code1.cpp~					     'list(1)'	     pub_html	     un.c
+ as4					    ass.zip	  code2.cpp					     'list(1).zip'  '$RECYCLE.BIN'   UnixLs.c
+ asgn3					   'CMPT 130'	  code.txt					      mainsem.c      simple.c	    'Untitled 2'
+ ass					    cmpt300	 'Co-op Work Permit for International Students.pdf'   makefile	     single-file    'Untitled Document 1'
+ ass3					    cmptpa	 'Co-op Work Permit Instructions JAN2020.pdf'	      myass3	     TestCode.zip   'Untitled Document 2'
+
+/home/ppayal/sfuhome/as4:
+makefile  test_output1	un.c  unix.c  UnixLs  unix.o  un.o
+
+/home/ppayal/sfuhome/asgn3:
+a.out  Assignment_1  assignment_3  assignment_3.zip  executable  run  simulation.o
+
+/home/ppayal/sfuhome/asgn3/Assignment_1:
+list.c	list.h	makefile  test.c
+
+/home/ppayal/sfuhome/asgn3/assignment_3:
+list.h	list.o	makefile  simulation.c
+
+/home/ppayal/sfuhome/ass:
+list.h	list.o	makefile  simp.c  simple.o  simp.o  s-talk
+
+/home/ppayal/sfuhome/ass3:
+list.c	list.h	list.o	mainsem.c  mainsem.o  makefile	simulation-app
+
+/home/ppayal/sfuhome/assign2:
+list.h	list.o	makefile  README.pdf  simp.c
+
+/home/ppayal/sfuhome/Assignment1:
+dsexceptions.h	List.h	makefile  part1.cpp  part2.cpp	Report.pdf  Vector2.h  Vector.h
+
+'/home/ppayal/sfuhome/CMPT 130':
+135
+
+'/home/ppayal/sfuhome/CMPT 130/135':
+135  135.sln  135.suo
+
+'/home/ppayal/sfuhome/CMPT 130/135/135':
+135.cpp  135.vcxproj
+
+/home/ppayal/sfuhome/cmpt300:
+ass
+
+/home/ppayal/sfuhome/cmpt300/ass:
+helper_list1.c	helper_list1.h	helper_list1.o	makefile
+
+/home/ppayal/sfuhome/cmptpa:
+A2.zip		BinarySearchTree1.h	 BinarySearchTree2.h.gch  makefile	   TestAVLTree.o	      TestBinarySearchTree2.cpp  Test_BST2
+AvlTreeB.h	BinarySearchTree1.h.gch  dsexceptions.h		  Test_AVL	   TestBinarySearchTree1.cpp  TestBinarySearchTree2.o
+AvlTreeB.h.gch	BinarySearchTree2.h	 dsexceptions.h.gch	  TestAvlTree.cpp  TestBinarySearchTree1.o    Test_BST1
+
+'/home/ppayal/sfuhome/list(1)':
+__MACOSX
+
+'/home/ppayal/sfuhome/list(1)/__MACOSX':
+
+/home/ppayal/sfuhome/myass3:
+list.h	list.o	run  simulation-app  simulation.o
+
+'/home/ppayal/sfuhome/payal ':
+
+/home/ppayal/sfuhome/pub_html:
+
+'/home/ppayal/sfuhome/$RECYCLE.BIN':
+desktop.ini
+
+/home/ppayal/sfuhome/single-file:
+Makefile  tutorial  tutorial.cpp  tutorial.o
+
+/home/ppayal/sfuhome/testing_A2:
+AvlTreeB.h	BinarySearchTree1.h	 BinarySearchTree2.h	  dsexceptions.h      makefile	TestAvlTree.cpp  TestBinarySearchTree1.cpp  TestBinarySearchTree2.cpp  Test_BST1
+AvlTreeB.h.gch	BinarySearchTree1.h.gch  BinarySearchTree2.h.gch  dsexceptions.h.gch  Test_AVL	TestAVLTree.o	 TestBinarySearchTree1.o    TestBinarySearchTree2.o    Test_BST2
+
+/home/ppayal/Templates:
+
+/home/ppayal/Videos:
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -l
+-rwxr-xr-x   1    ppayal domain users   13416 Dec 08 11:07 UnixLs
+-rwxr-xr-x   1    ppayal domain users    7872 Dec 04 22:14 unix.o
+-rwxr-xr-x   1    ppayal domain users    9040 Dec 08 11:07 un.o
+-rwxr-xr-x   1    ppayal domain users    7667 Dec 08 11:06 un.c
+-rwxr-xr-x   1    ppayal domain users    8665 Dec 04 22:11 unix.c
+-rwxr-xr-x   1    ppayal domain users     215 Dec 06 02:44 makefile
+-rwxr-xr-x   1    ppayal domain users   11583 Dec 08 11:31 test_output1
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -l
+total 72
+-rwxr-xr-x 1 ppayal domain users   215 Dec  6 02:44 makefile
+-rwxr-xr-x 1 ppayal domain users 11583 Dec  8 11:31 test_output1
+-rwxr-xr-x 1 ppayal domain users  7667 Dec  8 11:06 un.c
+-rwxr-xr-x 1 ppayal domain users  8665 Dec  4 22:11 unix.c
+-rwxr-xr-x 1 ppayal domain users 13416 Dec  8 11:07 UnixLs
+-rwxr-xr-x 1 ppayal domain users  7872 Dec  4 22:14 unix.o
+-rwxr-xr-x 1 ppayal domain users  9040 Dec  8 11:07 un.o
+ppayal@asb9700u-c05:~/sfuhome/as4$ 
+

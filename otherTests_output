@@ -1,0 +1,467 @@
+ppayal@asb9700u-c05:~$ cd sfuhome
+ppayal@asb9700u-c05:~/sfuhome$ cd as4
+ppayal@asb9700u-c05:~/sfuhome/as4$ make
+make: 'UnixLs' is up to date.
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -l ~/Documents
+/home/ppayal/Documents:
+-rw-r--r--   1    ppayal domain users    8212 Oct 18 12:51 payal1.odt
+-rw-r--r--   1    ppayal domain users    5026 Oct 30 15:36 list(1).zip
+-rw-r--r--   1    ppayal domain users    5026 Oct 27 01:05 list.zip
+
+
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -l ~/Documnets
+ls: cannot access '/home/ppayal/Documnets': No such file or directory
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -l ~/Documents
+total 28
+-rw-r--r-- 1 ppayal domain users 5026 Oct 30 15:36 'list(1).zip'
+-rw-r--r-- 1 ppayal domain users 5026 Oct 27 01:05  list.zip
+-rw-r--r-- 1 ppayal domain users 8212 Oct 18  2019  payal1.odt
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -i ~/Documents
+/home/ppayal/Documents:
+11838841838 payal1.odt
+10242075735 list(1).zip
+10223623921 list.zip
+
+
+
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -i ~/Documents
+10242075735 'list(1).zip'  10223623921  list.zip  11838841838  payal1.odt
+ppayal@asb9700u-c05:~/sfuhome/as4$ ./UnixLs -lR ..
+..:
+drwxr-xr-x   2    ppayal domain users       0 Jan 11 16:38 pub_html
+drwxr-xr-x   2    ppayal domain users       0 Dec 08 11:53 as4
+drwxr-xr-x   2    ppayal domain users       0 Dec 07 13:07 CMPT 130
+drwxr-xr-x   2    ppayal domain users       0 Oct 30 22:34 cmptpa
+-rwxr-xr-x   1    ppayal domain users     265 Sep 24 16:42 code1.cpp
+-rwxr-xr-x   1    ppayal domain users     311 Sep 13 15:15 code2.cpp
+-rwxr-xr-x   1    ppayal domain users     387 Sep 13 15:16 TestCode.zip
+-rwxr-xr-x   1    ppayal domain users       0 Sep 24 16:20 code.txt
+-rwxr-xr-x   1    ppayal domain users     264 Sep 24 16:35 code1.cpp~
+drwxr-xr-x   2    ppayal domain users       0 Sep 24 17:07 single-file
+-rwxr-xr-x   1    ppayal domain users     282 Feb 28 09:57 desktop.ini
+drwxr-xr-x   2    ppayal domain users       0 Nov 29 12:21 $RECYCLE.BIN
+drwxr-xr-x   2    ppayal domain users       0 Dec 02 15:23 testing_A2
+drwxr-xr-x   2    ppayal domain users       0 Oct 31 01:00 assign2
+drwxr-xr-x   2    ppayal domain users       0 Nov 24 14:24 ass3
+-rwxr-xr-x   1    ppayal domain users   41899 Oct 30 15:35 Untitled Document 1
+drwxr-xr-x   2    ppayal domain users       0 Jan 29 20:03 Assignment1
+-rwxr-xr-x   1    ppayal domain users  191682 Jan 29 20:04 a1.zip
+-rwxr-xr-x   1    ppayal domain users   74132 Feb 28 10:09 Co-op Work Permit Instructions JAN2020.pdf
+-rwxr-xr-x   1    ppayal domain users 2847076 Feb 28 10:28 857026e3_830f_4c97_9fa7_bbe33abb0803.pdf
+-rwxr-xr-x   1    ppayal domain users  676119 Feb 28 10:20 Co-op Work Permit for International Students.pdf
+drwxr-xr-x   2    ppayal domain users       0 Dec 07 13:07 cmpt300
+-rwxr-xr-x   1    ppayal domain users   18305 Oct 30 14:32 Untitled Document 2
+drwxr-xr-x   2    ppayal domain users       0 Oct 31 00:58 ass
+-rwxr-xr-x   1    ppayal domain users   16662 Oct 30 16:50 Untitled 2
+-rwxr-xr-x   1    ppayal domain users   23226 Oct 31 00:09 ass.zip
+drwxr-xr-x   2    ppayal domain users       0 Oct 30 19:17 list(1)
+-rwxr-xr-x   1    ppayal domain users   14576 Oct 31 00:07 simple.c
+-rwxr-xr-x   1    ppayal domain users   20163 Nov 20 18:20 mainsem.c
+drwxr-xr-x   2    ppayal domain users       0 Nov 22 16:25 myass3
+-rwxr-xr-x   1    ppayal domain users    5026 Oct 30 15:36 list(1).zip
+drwxr-xr-x   2    ppayal domain users       0 Nov 24 20:37 asgn3
+-rwxr-xr-x   1    ppayal domain users     201 Nov 22 22:51 makefile
+-rwxr-xr-x   1    ppayal domain users    8645 Dec 04 18:00 UnixLs.c
+drwxr-xr-x   2    ppayal domain users       0 Nov 22 16:24 payal 
+-rwxr-xr-x   1    ppayal domain users    6254 Dec 04 15:03 un.c
+
+
+../pub_html:
+
+
+../as4:
+-rwxr-xr-x   1    ppayal domain users   13416 Dec 08 11:07 UnixLs
+-rwxr-xr-x   1    ppayal domain users    7872 Dec 04 22:14 unix.o
+-rwxr-xr-x   1    ppayal domain users    9040 Dec 08 11:07 un.o
+-rwxr-xr-x   1    ppayal domain users    7667 Dec 08 11:06 un.c
+-rwxr-xr-x   1    ppayal domain users    8665 Dec 04 22:11 unix.c
+-rwxr-xr-x   1    ppayal domain users     215 Dec 06 02:44 makefile
+-rwxr-xr-x   1    ppayal domain users   11583 Dec 08 11:31 test_output1
+-rwxr-xr-x   1    ppayal domain users   11450 Dec 08 11:39 test_output2
+-rwxr-xr-x   1    ppayal domain users   35042 Dec 08 11:45 test_output3(-Ri -l)
+-rwxr-xr-x   1    ppayal domain users   61275 Dec 08 11:47 test_output4(-Ri -l continued)
+-rwxr-xr-x   1    ppayal domain users   36467 Dec 08 11:51 test_output5(-liR_with_special_symbols)
+-rwxr-xr-x   1    ppayal domain users   61176 Dec 08 11:53 text
+
+
+../CMPT 130:
+drwxr-xr-x   2    ppayal domain users       0 Dec 07 13:05 135
+
+
+../CMPT 130/135:
+drwxr-xr-x   2    ppayal domain users       0 Dec 07 13:05 135
+-rwxr-xr-x   1    ppayal domain users     881 Jan 09 20:22 135.sln
+-rwxr-xr-x   1    ppayal domain users    8704 Jan 09 21:40 135.suo
+
+
+../CMPT 130/135/135:
+-rwxr-xr-x   1    ppayal domain users    3914 Jan 09 20:27 135.vcxproj
+-rwxr-xr-x   1    ppayal domain users     412 Jan 09 21:40 135.cpp
+
+
+../cmptpa:
+-rwxr-xr-x   1    ppayal domain users    1059 Dec 02 14:59 makefile
+-rwxr-xr-x   1    ppayal domain users    8851 Dec 02 12:14 BinarySearchTree2.h
+-rwxr-xr-x   1    ppayal domain users     283 Dec 02 11:48 dsexceptions.h
+-rwxr-xr-x   1    ppayal domain users    1422 Dec 02 15:12 TestAvlTree.cpp
+-rwxr-xr-x   1    ppayal domain users    1532 Dec 02 14:46 TestBinarySearchTree1.cpp
+-rwxr-xr-x   1    ppayal domain users   21816 Dec 02 15:10 TestBinarySearchTree1.o
+-rwxr-xr-x   1    ppayal domain users    8525 Dec 02 12:14 BinarySearchTree1.h
+-rwxr-xr-x   1    ppayal domain users   11493 Dec 02 15:10 AvlTreeB.h
+-rwxr-xr-x   1    ppayal domain users    1521 Dec 02 14:54 TestBinarySearchTree2.cpp
+-rwxr-xr-x   1    ppayal domain users21067632 Dec 02 15:12 BinarySearchTree1.h.gch
+-rwxr-xr-x   1    ppayal domain users 2011568 Dec 02 15:12 dsexceptions.h.gch
+-rwxr-xr-x   1    ppayal domain users   19576 Dec 02 15:12 Test_BST1
+-rwxr-xr-x   1    ppayal domain users   20392 Dec 02 15:10 TestBinarySearchTree2.o
+-rwxr-xr-x   1    ppayal domain users21067632 Dec 02 15:12 BinarySearchTree2.h.gch
+-rwxr-xr-x   1    ppayal domain users   19384 Dec 02 15:12 Test_BST2
+-rwxr-xr-x   1    ppayal domain users   25296 Dec 02 15:12 TestAVLTree.o
+-rwxr-xr-x   1    ppayal domain users21112688 Dec 02 15:12 AvlTreeB.h.gch
+-rwxr-xr-x   1    ppayal domain users   19544 Dec 02 15:12 Test_AVL
+-rwxr-xr-x   1    ppayal domain users    9405 Dec 02 15:21 A2.zip
+
+
+../single-file:
+-rwxr-xr-x   1    ppayal domain users     579 Apr 30 15:53 Makefile
+-rwxr-xr-x   1    ppayal domain users   16858 Apr 30 15:53 tutorial.cpp
+-rwxr-xr-x   1    ppayal domain users   20656 Sep 24 17:07 tutorial.o
+-rwxr-xr-x   1    ppayal domain users   20720 Sep 24 17:07 tutorial
+
+
+../$RECYCLE.BIN:
+-rwxr-xr-x   1    ppayal domain users     129 Nov 29 12:21 desktop.ini
+
+
+../testing_A2:
+-rwxr-xr-x   1    ppayal domain users   11493 Dec 02 15:10 AvlTreeB.h
+-rwxr-xr-x   1    ppayal domain users    8525 Dec 02 12:14 BinarySearchTree1.h
+-rwxr-xr-x   1    ppayal domain users    8851 Dec 02 12:14 BinarySearchTree2.h
+-rwxr-xr-x   1    ppayal domain users     283 Dec 02 11:48 dsexceptions.h
+-rwxr-xr-x   1    ppayal domain users    1059 Dec 02 14:59 makefile
+-rwxr-xr-x   1    ppayal domain users    1422 Dec 02 15:12 TestAvlTree.cpp
+-rwxr-xr-x   1    ppayal domain users    1532 Dec 02 14:46 TestBinarySearchTree1.cpp
+-rwxr-xr-x   1    ppayal domain users    1521 Dec 02 14:54 TestBinarySearchTree2.cpp
+-rwxr-xr-x   1    ppayal domain users   21816 Dec 02 15:23 TestBinarySearchTree1.o
+-rwxr-xr-x   1    ppayal domain users21067632 Dec 02 15:23 BinarySearchTree1.h.gch
+-rwxr-xr-x   1    ppayal domain users 2011568 Dec 02 15:23 dsexceptions.h.gch
+-rwxr-xr-x   1    ppayal domain users   19576 Dec 02 15:23 Test_BST1
+-rwxr-xr-x   1    ppayal domain users   20392 Dec 02 15:23 TestBinarySearchTree2.o
+-rwxr-xr-x   1    ppayal domain users21067632 Dec 02 15:23 BinarySearchTree2.h.gch
+-rwxr-xr-x   1    ppayal domain users   19384 Dec 02 15:23 Test_BST2
+-rwxr-xr-x   1    ppayal domain users   25296 Dec 02 15:23 TestAVLTree.o
+-rwxr-xr-x   1    ppayal domain users21112688 Dec 02 15:23 AvlTreeB.h.gch
+-rwxr-xr-x   1    ppayal domain users   19544 Dec 02 15:23 Test_AVL
+
+
+../assign2:
+-rwxr-xr-x   1    ppayal domain users   63079 Oct 31 00:58 README.pdf
+-rwxr-xr-x   1    ppayal domain users    8704 Oct 05 15:03 list.o
+-rwxr-xr-x   1    ppayal domain users    5514 Oct 05 15:06 list.h
+-rwxr-xr-x   1    ppayal domain users   15589 Oct 31 00:54 simp.c
+-rwxr-xr-x   1    ppayal domain users     209 Oct 31 00:59 makefile
+
+
+../ass3:
+-rwxr-xr-x   1    ppayal domain users    3642 Nov 20 10:44 list.h
+-rwxr-xr-x   1    ppayal domain users   12941 Nov 20 10:46 list.c
+-rwxr-xr-x   1    ppayal domain users   19504 Nov 24 13:49 mainsem.o
+-rwxr-xr-x   1    ppayal domain users    9976 Nov 20 10:47 list.o
+-rwxr-xr-x   1    ppayal domain users     255 Nov 20 16:44 makefile
+-rwxr-xr-x   1    ppayal domain users   26520 Nov 24 13:49 simulation-app
+-rwxr-xr-x   1    ppayal domain users   33116 Nov 24 14:24 mainsem.c
+
+
+../Assignment1:
+-rwxr-xr-x   1    ppayal domain users     574 Jan 29 19:46 makefile
+-rwxr-xr-x   1    ppayal domain users  205768 Jan 29 20:02 Report.pdf
+-rwxr-xr-x   1    ppayal domain users     293 Jan 27 22:55 dsexceptions.h
+-rwxr-xr-x   1    ppayal domain users    7927 Jan 29 20:03 List.h
+-rwxr-xr-x   1    ppayal domain users    2437 Jan 29 18:41 part1.cpp
+-rwxr-xr-x   1    ppayal domain users    2712 Jan 29 18:59 part2.cpp
+-rwxr-xr-x   1    ppayal domain users    3561 Jan 29 17:26 Vector.h
+-rwxr-xr-x   1    ppayal domain users    4084 Jan 29 18:34 Vector2.h
+
+
+../cmpt300:
+drwxr-xr-x   2    ppayal domain users       0 Dec 07 13:08 ass
+
+
+../cmpt300/ass:
+-rwxr-xr-x   1    ppayal domain users     341 Oct 29 23:19 makefile
+-rwxr-xr-x   1    ppayal domain users   20012 Feb 29 05:38 helper_list1.c
+-rwxr-xr-x   1    ppayal domain users    1000 Feb 29 05:38 helper_list1.h
+-rwxr-xr-x   1    ppayal domain users   16056 Oct 29 23:23 helper_list1.o
+
+
+../ass:
+-rwxr-xr-x   1    ppayal domain users     209 Oct 31 00:58 makefile
+-rwxr-xr-x   1    ppayal domain users   15589 Oct 31 00:54 simp.c
+-rwxr-xr-x   1    ppayal domain users    5514 Oct 05 15:06 list.h
+-rwxr-xr-x   1    ppayal domain users    8704 Oct 05 15:03 list.o
+-rwxr-xr-x   1    ppayal domain users   14760 Oct 31 00:06 simple.o
+-rwxr-xr-x   1    ppayal domain users   24848 Oct 31 00:56 s-talk
+-rwxr-xr-x   1    ppayal domain users   15136 Oct 31 00:56 simp.o
+
+
+../list(1):
+drwxr-xr-x   2    ppayal domain users       0 Oct 30 15:37 __MACOSX
+
+
+../list(1)/__MACOSX:
+
+
+../myass3:
+-rwxr-xr-x   1    ppayal domain users    5514 Oct 05 15:06 list.h
+-rwxr-xr-x   1    ppayal domain users    8704 Oct 05 15:03 list.o
+-rwxr-xr-x   1    ppayal domain users    6328 Nov 22 16:19 simulation.o
+-rwxr-xr-x   1    ppayal domain users   18560 Nov 20 17:27 simulation-app
+-rwxr-xr-x   1    ppayal domain users   18632 Nov 22 16:19 run
+
+
+../asgn3:
+-rwxr-xr-x   1    ppayal domain users    9585 Nov 24 20:37 assignment_3.zip
+-rwxr-xr-x   1    ppayal domain users   24504 Nov 24 20:27 simulation.o
+drwxr-xr-x   2    ppayal domain users       0 Nov 22 22:50 Assignment_1
+-rwxr-xr-x   1    ppayal domain users   27448 Nov 24 20:27 run
+-rwxr-xr-x   1    ppayal domain users   18696 Nov 23 15:11 a.out
+-rwxr-xr-x   1    ppayal domain users   18696 Nov 23 15:07 executable
+drwxr-xr-x   2    ppayal domain users       0 Nov 24 20:36 assignment_3
+
+
+../asgn3/Assignment_1:
+-rwxr-xr-x   1    ppayal domain users     181 Oct 02 22:27 makefile
+-rwxr-xr-x   1    ppayal domain users   14166 Nov 22 21:00 list.c
+-rwxr-xr-x   1    ppayal domain users    4040 Oct 02 22:23 test.c
+-rwxr-xr-x   1    ppayal domain users    5619 Oct 02 21:56 list.h
+
+
+../asgn3/assignment_3:
+-rwxr-xr-x   1    ppayal domain users    5517 Nov 17 16:59 list.h
+-rwxr-xr-x   1    ppayal domain users    8704 Nov 17 16:59 list.o
+-rwxr-xr-x   1    ppayal domain users     201 Nov 23 14:53 makefile
+-rwxr-xr-x   1    ppayal domain users   20075 Nov 24 20:35 simulation.c
+
+
+../payal :
+
+
+ppayal@asb9700u-c05:~/sfuhome/as4$ ls -lR ..
+..:
+total 3909
+-rwxr-xr-x 1 ppayal domain users 2847076 Feb 28  2020  857026e3_830f_4c97_9fa7_bbe33abb0803.pdf
+-rwxr-xr-x 1 ppayal domain users  191682 Jan 29  2020  a1.zip
+drwxr-xr-x 2 ppayal domain users       0 Dec  8 11:53  as4
+drwxr-xr-x 2 ppayal domain users       0 Nov 24 20:37  asgn3
+drwxr-xr-x 2 ppayal domain users       0 Oct 31 00:58  ass
+drwxr-xr-x 2 ppayal domain users       0 Nov 24 14:24  ass3
+drwxr-xr-x 2 ppayal domain users       0 Oct 31 01:00  assign2
+drwxr-xr-x 2 ppayal domain users       0 Jan 29  2020  Assignment1
+-rwxr-xr-x 1 ppayal domain users   23226 Oct 31 00:09  ass.zip
+drwxr-xr-x 2 ppayal domain users       0 Dec  7 13:07 'CMPT 130'
+drwxr-xr-x 2 ppayal domain users       0 Dec  7 13:07  cmpt300
+drwxr-xr-x 2 ppayal domain users       0 Oct 30 22:34  cmptpa
+-rwxr-xr-x 1 ppayal domain users     265 Sep 24  2019  code1.cpp
+-rwxr-xr-x 1 ppayal domain users     264 Sep 24  2019  code1.cpp~
+-rwxr-xr-x 1 ppayal domain users     311 Sep 13  2019  code2.cpp
+-rwxr-xr-x 1 ppayal domain users       0 Sep 24  2019  code.txt
+-rwxr-xr-x 1 ppayal domain users  676119 Feb 28  2020 'Co-op Work Permit for International Students.pdf'
+-rwxr-xr-x 1 ppayal domain users   74132 Feb 28  2020 'Co-op Work Permit Instructions JAN2020.pdf'
+-rwxr-xr-x 1 ppayal domain users     282 Feb 28  2020  desktop.ini
+drwxr-xr-x 2 ppayal domain users       0 Oct 30 19:17 'list(1)'
+-rwxr-xr-x 1 ppayal domain users    5026 Oct 30 15:36 'list(1).zip'
+-rwxr-xr-x 1 ppayal domain users   20163 Nov 20 18:20  mainsem.c
+-rwxr-xr-x 1 ppayal domain users     201 Nov 22 22:51  makefile
+drwxr-xr-x 2 ppayal domain users       0 Nov 22 16:25  myass3
+drwxr-xr-x 2 ppayal domain users       0 Nov 22 16:24 'payal '
+drwxr-xr-x 2 ppayal domain users       0 Jan 11  2018  pub_html
+drwxr-xr-x 2 ppayal domain users       0 Nov 29  2019 '$RECYCLE.BIN'
+-rwxr-xr-x 1 ppayal domain users   14576 Oct 31 00:07  simple.c
+drwxr-xr-x 2 ppayal domain users       0 Sep 24  2019  single-file
+-rwxr-xr-x 1 ppayal domain users     387 Sep 13  2019  TestCode.zip
+drwxr-xr-x 2 ppayal domain users       0 Dec  2  2019  testing_A2
+-rwxr-xr-x 1 ppayal domain users    6254 Dec  4 15:03  un.c
+-rwxr-xr-x 1 ppayal domain users    8645 Dec  4 18:00  UnixLs.c
+-rwxr-xr-x 1 ppayal domain users   16662 Oct 30 16:50 'Untitled 2'
+-rwxr-xr-x 1 ppayal domain users   41899 Oct 30 15:35 'Untitled Document 1'
+-rwxr-xr-x 1 ppayal domain users   18305 Oct 30 14:32 'Untitled Document 2'
+
+../as4:
+total 276
+-rwxr-xr-x 1 ppayal domain users   215 Dec  6 02:44  makefile
+-rwxr-xr-x 1 ppayal domain users 11583 Dec  8 11:31  test_output1
+-rwxr-xr-x 1 ppayal domain users 11450 Dec  8 11:39  test_output2
+-rwxr-xr-x 1 ppayal domain users 35042 Dec  8 11:45 'test_output3(-Ri -l)'
+-rwxr-xr-x 1 ppayal domain users 61275 Dec  8 11:47 'test_output4(-Ri -l continued)'
+-rwxr-xr-x 1 ppayal domain users 36467 Dec  8 11:51 'test_output5(-liR_with_special_symbols)'
+-rwxr-xr-x 1 ppayal domain users 61176 Dec  8 11:53  text
+-rwxr-xr-x 1 ppayal domain users  7667 Dec  8 11:06  un.c
+-rwxr-xr-x 1 ppayal domain users  8665 Dec  4 22:11  unix.c
+-rwxr-xr-x 1 ppayal domain users 13416 Dec  8 11:07  UnixLs
+-rwxr-xr-x 1 ppayal domain users  7872 Dec  4 22:14  unix.o
+-rwxr-xr-x 1 ppayal domain users  9040 Dec  8 11:07  un.o
+
+../asgn3:
+total 104
+-rwxr-xr-x 1 ppayal domain users 18696 Nov 23 15:11 a.out
+drwxr-xr-x 2 ppayal domain users     0 Nov 22 22:50 Assignment_1
+drwxr-xr-x 2 ppayal domain users     0 Nov 24 20:36 assignment_3
+-rwxr-xr-x 1 ppayal domain users  9585 Nov 24 20:37 assignment_3.zip
+-rwxr-xr-x 1 ppayal domain users 18696 Nov 23 15:07 executable
+-rwxr-xr-x 1 ppayal domain users 27448 Nov 24 20:27 run
+-rwxr-xr-x 1 ppayal domain users 24504 Nov 24 20:27 simulation.o
+
+../asgn3/Assignment_1:
+total 32
+-rwxr-xr-x 1 ppayal domain users 14166 Nov 22 21:00 list.c
+-rwxr-xr-x 1 ppayal domain users  5619 Oct  2 21:56 list.h
+-rwxr-xr-x 1 ppayal domain users   181 Oct  2 22:27 makefile
+-rwxr-xr-x 1 ppayal domain users  4040 Oct  2 22:23 test.c
+
+../asgn3/assignment_3:
+total 44
+-rwxr-xr-x 1 ppayal domain users  5517 Nov 17 16:59 list.h
+-rwxr-xr-x 1 ppayal domain users  8704 Nov 17 16:59 list.o
+-rwxr-xr-x 1 ppayal domain users   201 Nov 23 14:53 makefile
+-rwxr-xr-x 1 ppayal domain users 20075 Nov 24 20:35 simulation.c
+
+../ass:
+total 100
+-rwxr-xr-x 1 ppayal domain users  5514 Oct  5 15:06 list.h
+-rwxr-xr-x 1 ppayal domain users  8704 Oct  5 15:03 list.o
+-rwxr-xr-x 1 ppayal domain users   209 Oct 31 00:58 makefile
+-rwxr-xr-x 1 ppayal domain users 15589 Oct 31 00:54 simp.c
+-rwxr-xr-x 1 ppayal domain users 14760 Oct 31 00:06 simple.o
+-rwxr-xr-x 1 ppayal domain users 15136 Oct 31 00:56 simp.o
+-rwxr-xr-x 1 ppayal domain users 24848 Oct 31 00:56 s-talk
+
+../ass3:
+total 120
+-rwxr-xr-x 1 ppayal domain users 12941 Nov 20 10:46 list.c
+-rwxr-xr-x 1 ppayal domain users  3642 Nov 20 10:44 list.h
+-rwxr-xr-x 1 ppayal domain users  9976 Nov 20 10:47 list.o
+-rwxr-xr-x 1 ppayal domain users 33116 Nov 24 14:24 mainsem.c
+-rwxr-xr-x 1 ppayal domain users 19504 Nov 24 13:49 mainsem.o
+-rwxr-xr-x 1 ppayal domain users   255 Nov 20 16:44 makefile
+-rwxr-xr-x 1 ppayal domain users 26520 Nov 24 13:49 simulation-app
+
+../assign2:
+total 104
+-rwxr-xr-x 1 ppayal domain users  5514 Oct  5 15:06 list.h
+-rwxr-xr-x 1 ppayal domain users  8704 Oct  5 15:03 list.o
+-rwxr-xr-x 1 ppayal domain users   209 Oct 31 00:59 makefile
+-rwxr-xr-x 1 ppayal domain users 63079 Oct 31 00:58 README.pdf
+-rwxr-xr-x 1 ppayal domain users 15589 Oct 31 00:54 simp.c
+
+../Assignment1:
+total 236
+-rwxr-xr-x 1 ppayal domain users    293 Jan 27  2020 dsexceptions.h
+-rwxr-xr-x 1 ppayal domain users   7927 Jan 29  2020 List.h
+-rwxr-xr-x 1 ppayal domain users    574 Jan 29  2020 makefile
+-rwxr-xr-x 1 ppayal domain users   2437 Jan 29  2020 part1.cpp
+-rwxr-xr-x 1 ppayal domain users   2712 Jan 29  2020 part2.cpp
+-rwxr-xr-x 1 ppayal domain users 205768 Jan 29  2020 Report.pdf
+-rwxr-xr-x 1 ppayal domain users   4084 Jan 29  2020 Vector2.h
+-rwxr-xr-x 1 ppayal domain users   3561 Jan 29  2020 Vector.h
+
+'../CMPT 130':
+total 0
+drwxr-xr-x 2 ppayal domain users 0 Dec  7 13:05 135
+
+'../CMPT 130/135':
+total 16
+drwxr-xr-x 2 ppayal domain users    0 Dec  7 13:05 135
+-rwxr-xr-x 1 ppayal domain users  881 Jan  9  2019 135.sln
+-rwxr-xr-x 1 ppayal domain users 8704 Jan  9  2019 135.suo
+
+'../CMPT 130/135/135':
+total 8
+-rwxr-xr-x 1 ppayal domain users  412 Jan  9  2019 135.cpp
+-rwxr-xr-x 1 ppayal domain users 3914 Jan  9  2019 135.vcxproj
+
+../cmpt300:
+total 0
+drwxr-xr-x 2 ppayal domain users 0 Dec  7 13:08 ass
+
+../cmpt300/ass:
+total 44
+-rwxr-xr-x 1 ppayal domain users 20012 Feb 29  2020 helper_list1.c
+-rwxr-xr-x 1 ppayal domain users  1000 Feb 29  2020 helper_list1.h
+-rwxr-xr-x 1 ppayal domain users 16056 Oct 29 23:23 helper_list1.o
+-rwxr-xr-x 1 ppayal domain users   341 Oct 29 23:19 makefile
+
+../cmptpa:
+total 63940
+-rwxr-xr-x 1 ppayal domain users     9405 Dec  2  2019 A2.zip
+-rwxr-xr-x 1 ppayal domain users    11493 Dec  2  2019 AvlTreeB.h
+-rwxr-xr-x 1 ppayal domain users 21112688 Dec  2  2019 AvlTreeB.h.gch
+-rwxr-xr-x 1 ppayal domain users     8525 Dec  2  2019 BinarySearchTree1.h
+-rwxr-xr-x 1 ppayal domain users 21067632 Dec  2  2019 BinarySearchTree1.h.gch
+-rwxr-xr-x 1 ppayal domain users     8851 Dec  2  2019 BinarySearchTree2.h
+-rwxr-xr-x 1 ppayal domain users 21067632 Dec  2  2019 BinarySearchTree2.h.gch
+-rwxr-xr-x 1 ppayal domain users      283 Dec  2  2019 dsexceptions.h
+-rwxr-xr-x 1 ppayal domain users  2011568 Dec  2  2019 dsexceptions.h.gch
+-rwxr-xr-x 1 ppayal domain users     1059 Dec  2  2019 makefile
+-rwxr-xr-x 1 ppayal domain users    19544 Dec  2  2019 Test_AVL
+-rwxr-xr-x 1 ppayal domain users     1422 Dec  2  2019 TestAvlTree.cpp
+-rwxr-xr-x 1 ppayal domain users    25296 Dec  2  2019 TestAVLTree.o
+-rwxr-xr-x 1 ppayal domain users     1532 Dec  2  2019 TestBinarySearchTree1.cpp
+-rwxr-xr-x 1 ppayal domain users    21816 Dec  2  2019 TestBinarySearchTree1.o
+-rwxr-xr-x 1 ppayal domain users     1521 Dec  2  2019 TestBinarySearchTree2.cpp
+-rwxr-xr-x 1 ppayal domain users    20392 Dec  2  2019 TestBinarySearchTree2.o
+-rwxr-xr-x 1 ppayal domain users    19576 Dec  2  2019 Test_BST1
+-rwxr-xr-x 1 ppayal domain users    19384 Dec  2  2019 Test_BST2
+
+'../list(1)':
+total 0
+drwxr-xr-x 2 ppayal domain users 0 Oct 30 15:37 __MACOSX
+
+'../list(1)/__MACOSX':
+total 0
+
+../myass3:
+total 68
+-rwxr-xr-x 1 ppayal domain users  5514 Oct  5 15:06 list.h
+-rwxr-xr-x 1 ppayal domain users  8704 Oct  5 15:03 list.o
+-rwxr-xr-x 1 ppayal domain users 18632 Nov 22 16:19 run
+-rwxr-xr-x 1 ppayal domain users 18560 Nov 20 17:27 simulation-app
+-rwxr-xr-x 1 ppayal domain users  6328 Nov 22 16:19 simulation.o
+
+'../payal ':
+total 0
+
+../pub_html:
+total 0
+
+'../$RECYCLE.BIN':
+total 4
+-rwxr-xr-x 1 ppayal domain users 129 Nov 29  2019 desktop.ini
+
+../single-file:
+total 72
+-rwxr-xr-x 1 ppayal domain users   579 Apr 30  2019 Makefile
+-rwxr-xr-x 1 ppayal domain users 20720 Sep 24  2019 tutorial
+-rwxr-xr-x 1 ppayal domain users 16858 Apr 30  2019 tutorial.cpp
+-rwxr-xr-x 1 ppayal domain users 20656 Sep 24  2019 tutorial.o
+
+../testing_A2:
+total 63928
+-rwxr-xr-x 1 ppayal domain users    11493 Dec  2  2019 AvlTreeB.h
+-rwxr-xr-x 1 ppayal domain users 21112688 Dec  2  2019 AvlTreeB.h.gch
+-rwxr-xr-x 1 ppayal domain users     8525 Dec  2  2019 BinarySearchTree1.h
+-rwxr-xr-x 1 ppayal domain users 21067632 Dec  2  2019 BinarySearchTree1.h.gch
+-rwxr-xr-x 1 ppayal domain users     8851 Dec  2  2019 BinarySearchTree2.h
+-rwxr-xr-x 1 ppayal domain users 21067632 Dec  2  2019 BinarySearchTree2.h.gch
+-rwxr-xr-x 1 ppayal domain users      283 Dec  2  2019 dsexceptions.h
+-rwxr-xr-x 1 ppayal domain users  2011568 Dec  2  2019 dsexceptions.h.gch
+-rwxr-xr-x 1 ppayal domain users     1059 Dec  2  2019 makefile
+-rwxr-xr-x 1 ppayal domain users    19544 Dec  2  2019 Test_AVL
+-rwxr-xr-x 1 ppayal domain users     1422 Dec  2  2019 TestAvlTree.cpp
+-rwxr-xr-x 1 ppayal domain users    25296 Dec  2  2019 TestAVLTree.o
+-rwxr-xr-x 1 ppayal domain users     1532 Dec  2  2019 TestBinarySearchTree1.cpp
+-rwxr-xr-x 1 ppayal domain users    21816 Dec  2  2019 TestBinarySearchTree1.o
+-rwxr-xr-x 1 ppayal domain users     1521 Dec  2  2019 TestBinarySearchTree2.cpp
+-rwxr-xr-x 1 ppayal domain users    20392 Dec  2  2019 TestBinarySearchTree2.o
+-rwxr-xr-x 1 ppayal domain users    19576 Dec  2  2019 Test_BST1
+-rwxr-xr-x 1 ppayal domain users    19384 Dec  2  2019 Test_BST2
+ppayal@asb9700u-c05:~/sfuhome/as4$ 
+
